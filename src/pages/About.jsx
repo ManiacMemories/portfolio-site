@@ -12,7 +12,7 @@ export default function About() {
     >
       <SectionTitle number="02." title="About Me" />
 
-      <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+      <p className="text-left sm:text-center text-base sm:text-lg text-gray-700 leading-relaxed">
         👨‍💻 안녕하세요! 저는 꾸준한 학습과 깔끔한 UI 구현을 즐기는 웹 개발자입니다.<br/><br/>
         Java, Spring Boot, React를 중심으로 풀스택 프로젝트를 경험했고,<br/>
         사용자 중심의 서비스 기획과 프론트/백엔드 개발에 열정을 가지고 있습니다.<br/><br/>

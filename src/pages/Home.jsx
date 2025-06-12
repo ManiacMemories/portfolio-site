@@ -4,7 +4,7 @@ import SectionTitle from '../components/SectionTitle';
 export default function Home() {
   return (
     <motion.div
-      className="max-w-3xl mx-auto px-4 sm:px-6 text-center"
+      className="max-w-3xl mx-auto px-4 sm:px-6 text-left sm:text-center"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
