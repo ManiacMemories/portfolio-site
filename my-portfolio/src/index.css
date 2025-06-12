@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 커스텀 폰트 및 기본 레이아웃 설정 */
+body {
+  font-family: 'Pretendard', sans-serif;
+  background-color: white;
+  scroll-behavior: smooth;
+}
