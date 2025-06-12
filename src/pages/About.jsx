@@ -7,7 +7,7 @@ export default function About() {
       className="max-w-3xl mx-auto px-4 sm:px-6 text-center md:text-left"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
+      viewport={{ once: false }}
       transition={{ duration: 0.6 }}
     >
       <SectionTitle number="02." title="About Me" />
