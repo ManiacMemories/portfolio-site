@@ -20,7 +20,7 @@ const projects = [
 export default function Projects() {
   return (
     <motion.div
-      className="max-w-6xl mx-auto px-6"
+      className="max-w-6xl mx-auto px-4 sm:px-6"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: false }}
@@ -28,7 +28,7 @@ export default function Projects() {
     >
       <SectionTitle number="04." title="Projects" />
 
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
         {projects.map((project, idx) => (
           <ProjectCard key={idx} {...project} />
         ))}

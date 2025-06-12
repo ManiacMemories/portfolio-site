@@ -23,6 +23,7 @@ export default function App() {
       setActiveSection(current);
     };
     window.addEventListener('scroll', onScroll);
+    document.title = '꿈꾸는세상';
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 

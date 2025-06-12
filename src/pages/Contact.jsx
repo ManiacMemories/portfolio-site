@@ -4,7 +4,7 @@ import SectionTitle from '../components/SectionTitle';
 export default function Contact() {
   return (
     <motion.div
-      className="max-w-xl mx-auto px-6 text-center"
+      className="max-w-xl mx-auto px-4 sm:px-6 text-center"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: false }}
@@ -19,7 +19,7 @@ export default function Contact() {
       <br />
       <a
         href="mailto:your-email@example.com"
-        className="inline-block bg-primary text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition"
+        className="inline-block bg-primary text-white px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg font-semibold hover:opacity-90 transition text-sm sm:text-base"
       >
         이메일 보내기
       </a>
