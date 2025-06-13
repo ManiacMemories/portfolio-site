@@ -14,7 +14,7 @@ export default function Home() {
 
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-snug text-gray-900 mb-6">
         안녕하세요 👋<br /><br />
-        저는 주니어 개발자 <span className="text-primary">김정현</span> 입니다. 
+        개발자를 꿈꾸는 <span className="text-primary">김정현</span> 입니다. 
       </h1><br />
 
       <p className="text-base sm:text-lg text-gray-600 leading-relaxed">

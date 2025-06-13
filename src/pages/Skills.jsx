@@ -1,7 +1,14 @@
 import { useState } from 'react';
 import SectionTitle from '../components/SectionTitle';
-import { FaHtml5, FaCss3Alt, FaJs, FaJava, FaReact, FaNodeJs } from 'react-icons/fa';
-import { SiTypescript, SiTailwindcss, SiMysql, SiMongodb, SiExpress, SiFigma, SiDocker } from 'react-icons/si';
+import {
+  FaHtml5, FaCss3Alt, FaJs, FaJava, FaReact,
+  FaNodeJs, FaPython, FaGithub
+} from 'react-icons/fa';
+import {
+  SiTailwindcss, SiMysql, SiMongodb, SiExpress,SiRaspberrypi,
+  SiDocker, SiDbeaver, SiOracle, SiSocketdotio, SiArduino
+} from 'react-icons/si';
+import { VscVscode } from 'react-icons/vsc';  
 import { motion } from 'framer-motion';
 
 const skillData = {
@@ -9,8 +16,8 @@ const skillData = {
     { icon: <FaHtml5 className="text-orange-500" />, title: 'HTML5', desc: '기본적인 HTML 태그를 사용할 수 있습니다.' },
     { icon: <FaCss3Alt className="text-blue-500" />, title: 'CSS', desc: '순수 CSS만을 이용하여 레이아웃을 할 수 있습니다.' },
     { icon: <FaJs className="text-yellow-400" />, title: 'Javascript', desc: 'ES6+ 문법을 활용하여 코드를 작성할 수 있습니다.' },
-    { icon: <SiTypescript className="text-blue-600" />, title: 'Typescript', desc: '타입을 활용하여 명확한 코드를 작성할 수 있습니다.' },
     { icon: <FaJava className="text-red-500" />, title: 'Java', desc: '자바로 다양한 프로그램을 제작해보았습니다.' },
+    { icon: <FaPython className="text-blue-400" />, title: 'Python', desc: '파이썬으로 다양한 프로그램을 제작해보았습니다.' },
   ],
   FrontEnd: [
     { icon: <FaReact className="text-sky-500" />, title: 'React', desc: 'SPA 기반 웹앱을 제작할 수 있습니다.' },
@@ -22,11 +29,19 @@ const skillData = {
   ],
   Database: [
     { icon: <SiMysql className="text-blue-600" />, title: 'MySQL', desc: '관계형 DB 설계 및 쿼리 작성 가능' },
+    { icon: <SiOracle className="text-red-600" />, title: 'Oracle', desc: '관계형 DB 설계 및 쿼리 작성 가능' },
     { icon: <SiMongodb className="text-green-700" />, title: 'MongoDB', desc: 'NoSQL 문서형 DB 사용 경험' },
   ],
+  IoT: [
+    { icon: <SiArduino className="text-orange-500" />, title: 'Arduino', desc: '센서 값을 수집하고 제어하기 위한 아두이노 코드 작성 및 시리얼 통신 경험' },
+    { icon: <SiRaspberrypi className="text-red-500" />, title: 'Raspberry Pi', desc: 'Node.js 기반 스마트팜 데이터 수집 및 서버 역할 수행 경험' },
+  ],
   ETC: [
-    { icon: <SiFigma className="text-pink-500" />, title: 'Figma', desc: '디자인 협업 툴을 활용한 UI 시안 설계' },
     { icon: <SiDocker className="text-blue-500" />, title: 'Docker', desc: '이미지 빌드 및 컨테이너 실행 경험 있음' },
+    { icon: <SiDbeaver className="text-sky-700" />, title: 'DBeaver', desc: 'DB 컨테이너 관리 및 실행 경험 있음' },
+    { icon: <VscVscode className="text-blue-700" />, title: 'VS Code', desc: '코드 작성, 디버깅, 확장 기능 활용' },
+    { icon: <FaGithub className="text-black" />, title: 'GitHub', desc: '프로젝트 버전 관리 및 협업 경험' },
+    { icon: <SiSocketdotio className="text-purple-600" />, title: 'Socket.IO', desc: '센서 데이터 실시간 수신 및 UI 연동 경험' },
   ],
 };
 

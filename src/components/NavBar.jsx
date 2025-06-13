@@ -27,7 +27,7 @@ export default function NavBar({ activeSection, onNavClick }) {
       ${scrolled ? 'bg-white/80 shadow backdrop-blur' : 'bg-transparent'}`}
     >
       <nav className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
-        <div className="text-xl font-bold text-primary">MyPortfolio</div>
+        <div className="text-xl font-bold text-primary">KIMS_Portfolio</div>
 
         {/* 데스크탑 네비게이션 */}
         <div className="hidden md:flex space-x-6">
