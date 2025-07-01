@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import Skills from './pages/Skills';
-import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
@@ -38,9 +37,6 @@ export default function App() {
       <main className="pt-20 font-sans snap-y snap-mandatory overflow-y-scroll scroll-smooth">
         <section id="home" className="min-h-screen flex items-center justify-center bg-white">
           <Home />
-        </section>
-        <section id="about" className="min-h-screen flex items-center justify-center bg-gray-50">
-          <About />
         </section>
         <section id="skills" className="min-h-screen flex items-center justify-center bg-white">
           <Skills />

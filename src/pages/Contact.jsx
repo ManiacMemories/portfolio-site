@@ -13,10 +13,10 @@ export default function Contact() {
       viewport={{ once: false }}
       transition={{ duration: 0.6 }}
     >
-      <SectionTitle number="05." title="Contact" />
+      <SectionTitle number="04." title="Contact" />
 
       <p className="text-gray-700 text-base leading-loose mb-6">
-        포트폴리오를 봐주셔서 감사합니다.<br />
+        포트폴리오를 봐주셔서 감사합니다.<br /><br />
         협업 제안, 문의사항은 아래 이메일로 연락 주세요.
       </p>
 

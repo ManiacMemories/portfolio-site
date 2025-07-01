@@ -14,8 +14,7 @@ export default function NavBar({ activeSection, onNavClick }) {
   }, []);
 
   const links = [
-    { id: 'home', label: 'Home' },
-    { id: 'about', label: 'About' },
+    { id: 'home', label: 'About' },
     { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
     { id: 'contact', label: 'Contact' },
