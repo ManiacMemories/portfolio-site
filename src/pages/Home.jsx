@@ -10,6 +10,7 @@ export default function Home() {
       viewport={{ once: false }}
       transition={{ duration: 0.6 }}
     >
+      
       <SectionTitle number="01." title="About" />
 
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-snug text-gray-900 mb-6">

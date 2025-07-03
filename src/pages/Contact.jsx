@@ -3,6 +3,7 @@ import SectionTitle from '../components/SectionTitle';
 
 export default function Contact() {
   const email = "kimjunghyen990521@gmail.com";
+  const phone = "010-8582-1136";
   const gmailUrl = `https://mail.google.com/mail/?view=cm&to=${email}`;
 
   return (
@@ -15,14 +16,22 @@ export default function Contact() {
     >
       <SectionTitle number="04." title="Contact" />
 
-      <p className="text-gray-700 text-base leading-loose mb-6">
+      <p className="text-left sm:text-center text-base sm:text-lg text-gray-700 leading-relaxed">
         포트폴리오를 봐주셔서 감사합니다.<br /><br />
-        협업 제안, 문의사항은 아래 이메일로 연락 주세요.
+        협업 제안, 문의사항은 아래로 연락 주세요.
+        <br /><br />
       </p>
 
-      {/* 이메일 주소 강조 */}
-      <div className="text-2xl sm:text-3xl font-semibold text-primary mb-8">
-        {email}
+      {/* 연락처(이메일, 전화번호) 강조 */}
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 mb-8 text-base sm:text-lg font-semibold">
+        <div className="flex items-center gap-2 whitespace-nowrap">
+          <span role="img" aria-label="전화">📞</span>
+          <span>{phone}</span>
+        </div>
+        <div className="flex items-center gap-2 whitespace-nowrap">
+          <span role="img" aria-label="이메일">✉️</span>
+          <span className="break-all">{email}</span>
+        </div>
       </div>
 
       {/* Gmail 링크 버튼 */}

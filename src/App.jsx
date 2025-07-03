@@ -41,7 +41,7 @@ export default function App() {
         <section id="skills" className="min-h-screen flex items-center justify-center bg-white">
           <Skills />
         </section>
-        <section id="projects" className="min-h-screen flex items-center justify-center bg-gray-50">
+        <section id="projects" className="min-h-screen flex items-center justify-center bg-white">
           <Projects />
         </section>
         <section id="contact" className="min-h-screen flex items-center justify-center bg-white">
